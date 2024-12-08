@@ -47,7 +47,7 @@ card.js :
 
 news.js:
 
-  Step 1: Create a component called 'HaberMaker' to create news.
+  Step 1: Create a component called 'NewsMaker' to create news.
   Your component will be a function that takes a news object as an argument,
   and it will return and create a DOM node that looks like this:
   
@@ -67,7 +67,7 @@ news.js:
   
   
   Step 4: Loop the data containing all the news outside your function. 
-  Create a div.article element using the 'HaberYapici' component you wrote and add it to the div.articles node in the DOM. (see index.html).
+  Create a div.article element using the 'NewsMaker' component you wrote and add it to the div.articles node in the DOM. (see index.html).
   
   
   Step 5: For the news above, try adding a technology news you find to the array named data. Make sure that it has the same structure as other news objects.
@@ -89,6 +89,6 @@ news.js:
   
   Step 4: Don't forget to return the div.menu created in the 'MenuBuilder' function.
   
-  Step 5: Create the menu using the 'MenuConstructor' function and the 'menuElemenlari' array, and add the returned menu to the div with the header class.
+  Step 5: Create the menu using the 'MenuConstructor' function and the 'menuElements' array, and add the returned menu to the div with the header class.
   
   
