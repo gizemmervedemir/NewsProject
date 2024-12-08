@@ -1,4 +1,3 @@
-
 const cardDataList = [
     {
       imgURL: 'https://i.ibb.co/W3hCdQt/js.png',
